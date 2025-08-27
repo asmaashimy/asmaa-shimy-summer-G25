@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="type-style">
+    <div class="left-box">
+      <h2>Let's Chat</h2>
+      <p>
+        Whether you have a question, want to start a project 
+        or simply want to connect.
+      </p>
+      <p>
+        Feel free to send me a message in the contact form
+      </p>
+    </div><!--
+
+    --><div class="right-box">
+      <h2>Contact</h2>
+      <p class="required-note">*Required</p>
+      <form id="register-form">
+        <input type="text" class="form-input" placeholder="Name *" required>
+        <input type="email" class="form-input" placeholder="Email *" required>
+        <input type="text" class="form-input" placeholder="Company" required>
+        <input type="text" class="form-input" placeholder="Phone" pattern="[0-9]{11}" title="Please enter an 11-digit phone number" required>
+        <textarea class="form-input" placeholder="Message" rows="6"></textarea>
+        <input type="submit" class="submit-link" value="SUBMIT">
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
