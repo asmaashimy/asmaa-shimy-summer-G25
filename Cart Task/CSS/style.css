@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: large;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.padding-top-bottom {
+  padding: 20px 0;
+}
+
+.padding-bottom {
+  padding-bottom: 7%;
+}
+
+/*Navbar*/
+nav .container .search-bar button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 55px;
+  padding-bottom: 5px;
+}
+
+.nav-links {
+  width: 33%;
+}
+
+.search-bar {
+  width: 20%;
+}
+
+.search-bar i {
+  font-size: 20px;
+}
+
+/*Hero*/
+.bg-img {
+  background-image: url(../images/Cart\ image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 316px;
+  box-shadow: 0px 0px 5px 2px lightgray;
+}
+
+.layout {
+  background-color: rgb(255 255 255 / 67%);  height: 100%;
+  padding-block: 5%;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contact-cart-layout {
+  display: flex;
+  gap: 10px;
+}
+
+/*Cart Section*/
+.cart-layout {
+  display: flex;
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.cart-table {
+  width: 70%;
+  background: white;
+}
+
+.cart-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 15px;
+  font-size:medium;
+  border: none !important;
+  text-align: center;
+  margin: 25px;
+}
+
+.cart-table th {
+  background-color: #fff4ec;
+  font-weight: bold;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.quantity-box {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+.product-info img {
+  width: 88px;
+  border-radius: 5px;
+}
+
+.cart-table input {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+}
+
+.cart-table i {
+  cursor: pointer;
+  color: goldenrod;
+}
+
+.cart-totals {
+  width: 30%;
+  background: #fff4ec;
+  padding: 3%;
+}
+
+.cart-totals h2 {
+    margin-bottom: 37px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.totals-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 17px;
+  padding: 5% 7%;
+}
+
+.totals-row.total {
+  font-weight: bold;
+}
+
+.highlight {
+  color: rgb(184, 142, 47);;
+}
+
+.checkout-btn {
+  width: 73%;
+  margin: auto;
+  padding: 12px;
+  border: 1px solid black;
+  background: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: block;
+  text-align: center;
+  font-size: larger;
+  font-weight: 100;
+  margin-bottom: 60px;
+}
+
+.checkout-btn:hover {
+  background: orange;
+  color: white;
+}
+
+/* Services Section */
+.services {
+  background: #fdf1e7;
+  padding: 5% 0;
+}
+
+.service-box {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  width: 23%;
+}
+
+.service-box i {
+  font-size: 40px;
+  color: black;
+}
+
+.service-box h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.service-box p {
+  font-size: 14px;
+  color: gray;
+  margin-top: 5px;
+}
+
+/*Footer*/
+footer {
+  background: #fff;
+  padding: 4% 0 2%;
+  margin-top: 1%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.footer-col h3,
+.footer-col h4 {
+  margin-bottom: 15px;
+}
+
+.footer-col h3 {
+  font-size: 20px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  color: gray;
+}
+
+.footer-col p {
+  color: gray;
+  font-size: 14px;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+  padding-block: 10%;
+}
+
+.footer-col ul li a {
+  font-size: 14px;
+  color: black;
+}
+
+.newsletter-box {
+  display: flex;
+  gap: 5%;
+  padding-bottom: 5px;
+}
+
+
+
+.newsletter-box input {
+  padding: 2%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 90%;
+  width: 75%;
+}
+
+.newsletter-box button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.copy {
+  font-size: 12px;
+  color: gray;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin-top: 5%;
+  text-align: left;
+  margin-top: 3%;
+}
+.border-bottom-subscribe{
+  border-bottom: 1px solid black;
+}
