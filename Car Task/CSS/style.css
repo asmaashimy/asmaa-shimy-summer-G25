@@ -1,0 +1,32 @@
+.w-100 {
+    width: 100%;
+}
+
+.car {
+    background-image: url(../images/straight-road.webp);
+    height: 22vh;
+}
+
+.car img {
+    width: 111px;
+    margin-top: 1px;
+}
+
+.car-animation {
+    width: 100px;
+    height: 100px;
+    animation-name: moveCar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes moveCar {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(1500%);
+    }
+}
